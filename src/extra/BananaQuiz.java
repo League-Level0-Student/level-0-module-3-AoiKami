@@ -10,6 +10,19 @@ public class BananaQuiz
 	public static void main(String[] args)
 	{
 		//1. ask the user if they like bananas
+		String Person = JOptionPane.showInputDialog("Do you like bananas?");
+		if(Person.equalsIgnoreCase("yes")){
+			String Person2 = JOptionPane.showInputDialog("What is your Favorite Hobby?");
+			if(Person2.equalsIgnoreCase(Person2)){
+				JOptionPane.showMessageDialog(null, Person2 + "is much better than bananas!");
+					}else {
+						if(Person.equalsIgnoreCase("no")){
+						JOptionPane.showMessageDialog(null, "Quiz has ended!");
+						}
+	}
+}
+}
+
 		//2. if they say no, 
 			//tell them they are crazy 
 			//and end quiz
@@ -22,4 +35,5 @@ public class BananaQuiz
 	
 	}
 
-}
+
+
