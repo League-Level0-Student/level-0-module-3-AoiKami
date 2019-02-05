@@ -3,6 +3,7 @@
 
 package modulo;
 
+import javax.swing.JOptionPane;
 
 /**
 * Fizz Buzz
@@ -25,7 +26,75 @@ package modulo;
 * 
 **/
 
-public class FizzBuzz {
+import javax.swing.JOptionPane;
 
-}
+public class FizzBuzz {
+	public static void main(String[] args) {
+	String Person = JOptionPane.showInputDialog("Lets fizz/buzz!!!");
+	if(Person.equalsIgnoreCase("1")){
+		JOptionPane.showMessageDialog(null, "1");
+	}else {
+		if(Person.equalsIgnoreCase("2")){
+			JOptionPane.showMessageDialog(null, "2");
+		}else {
+			if(Person.equalsIgnoreCase("3")){
+				JOptionPane.showMessageDialog(null, "fizz");
+			}else {
+				if(Person.equalsIgnoreCase("4")){
+					JOptionPane.showMessageDialog(null, "4");
+				}else {
+					if(Person.equalsIgnoreCase("5")){
+						JOptionPane.showMessageDialog(null, "buzz");
+					}else {
+						if(Person.equalsIgnoreCase("6")){
+							JOptionPane.showMessageDialog(null, "fizz");
+						}else {
+							if(Person.equalsIgnoreCase("7")){
+								JOptionPane.showMessageDialog(null, "7");
+							}else {
+								if(Person.equalsIgnoreCase("8")){
+									JOptionPane.showMessageDialog(null, "8");
+								}else {
+									if(Person.equalsIgnoreCase("9")){
+										JOptionPane.showMessageDialog(null, "fizz");
+									}else {
+										if(Person.equalsIgnoreCase("10")){
+											JOptionPane.showMessageDialog(null, "buzz");
+										}else {
+											if(Person.equalsIgnoreCase("11")){
+												JOptionPane.showMessageDialog(null, "11");
+											}else {
+												if(Person.equalsIgnoreCase("12")){
+													JOptionPane.showMessageDialog(null, "fizz");
+												}else {
+													if(Person.equalsIgnoreCase("13")){
+														JOptionPane.showMessageDialog(null, "13");
+													}else {
+														if(Person.equalsIgnoreCase("14")){
+															JOptionPane.showMessageDialog(null, "14");
+														}else {
+															if(Person.equalsIgnoreCase("15")){
+																JOptionPane.showMessageDialog(null, "fizzbuzz");
+															}else {
+																if(Person.equalsIgnoreCase("16")){
+																	JOptionPane.showMessageDialog(null, "16");
+																}else {
+																	if(Person.equalsIgnoreCase("17")){
+																		JOptionPane.showMessageDialog(null, "17");
+																	}else {
+																		if(Person.equalsIgnoreCase("18")){
+																			JOptionPane.showMessageDialog(null, "fizz");
+																		}else {
+																			if(Person.equalsIgnoreCase("19")){
+																				JOptionPane.showMessageDialog(null, "19");
+																			}else {
+																				if(Person.equalsIgnoreCase("20")){
+																					JOptionPane.showMessageDialog(null, "buzz");
+																				
+				
+}}}}}}}}}}}}}}}}}}}}}}
+
+
+							
+
 
